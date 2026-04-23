@@ -12,9 +12,9 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
-    "types": ["node"],
+    "module": "node16",
+    "target": "es2024",
+    "types": ["vitest/globals"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
